@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Captcha Generator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="Container">
+        <div class="Container_captcha">
+            <h2 style="padding-left: 20px;">Captcha Generator</h2><br>
+            <button id="Captcha" onclick="generator()" style="width: 100%;"></button>
+             <i class="fa-solid fa-rotate-right"></i>  
+             <div class="input_Container">
+            <input type="text" id="Container_input" placeholder="  Enter Captcha" style="width: 100%;">
+            <button class="nav" onclick="validate()">Check</button>
+             </div>
+        <p id="result"></p>
+        </div>      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
